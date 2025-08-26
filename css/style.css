@@ -1,0 +1,241 @@
+/* Basic Set up  here */
+
+
+  * {
+
+    padding: 0;
+    margin: 0;
+    
+  }
+  
+  body {
+  
+      height: 100%;
+  }
+  
+  
+    header {
+  
+      width: 100%;
+      background-color: black;
+      margin-bottom: 50px;
+    }
+    
+    .pro {
+    
+      color: red;
+    }
+    
+    .hero {
+    
+      background-color: red;
+      
+    }
+    
+    .logo2 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 55px;
+      padding-bottom: 55px;
+    
+    
+    }
+    
+    
+    /* Title header here */
+    
+    
+    .Titleheader {
+    
+      
+      text-align: center;
+    
+      padding-top: 50px;
+      padding-bottom: 50px;
+      padding-left: 20px;
+      padding-right: 20px;
+    
+      font-size: 60px;
+      color: white;
+    
+    
+    }
+    
+    
+    
+    /* parent A */
+    
+    .container {
+    
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items:flex-start;
+    
+      gap: 20px;
+    
+    
+      background-color: yellow;
+    
+      padding-top: 50px;
+      padding-bottom: 50px;
+      padding-left: 50px;
+      padding-right: 50px;
+    
+    
+    }
+    
+    .billy {
+    
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 45px;
+    
+    }
+    
+    
+    /* child to parent A */
+    
+    .item {
+    
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      border-radius: 3px;
+      color: #fff;
+    
+      text-align: center;
+    
+      padding: 30px;
+      margin: 5px;
+      font-family:Arial, Helvetica, sans-serif;
+      font-weight: bold;
+    
+      font-size: 35px;
+    
+    }
+    
+    /* parent A */
+    
+    
+    /* First child to parent A */
+    
+    #item-one {
+    
+    
+    color: black;
+    background-color: orange;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    
+    
+    
+    
+    }
+    
+    
+    footer {
+    
+      background-color: black;
+      margin-top: 50px;
+    
+    }
+    
+    p {
+      color: white;
+      text-align: center;
+      font-weight: bold;
+      font-size: 45px;
+    
+      height: 100%;
+      width: 100%;
+    
+      padding-top: 100px;
+      padding-bottom: 100px;
+    
+    }
+  
+
+
+
+
+
+
+@media screen and (min-width: 1024px) {
+
+    /* parent A */
+
+.container {
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items:flex-start;
+
+  gap: 20px;
+
+
+  background-color: gray;
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+
+}
+
+/* child to parent A */
+
+.item {
+
+  width: 200px;
+  height: 200px;
+  background-color: #f5ec3f;
+  border-radius: 13px;
+  color: darkblue;
+
+  text-align: center;
+
+  padding: 30px;
+  margin: 5px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+
+  font-size: 35px;
+
+}
+
+.hero {
+
+  background-color: red;
+  
+}
+
+.logo2 {
+  display: inline-block;
+  padding-left: 50px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+
+
+}
+
+.billy {
+
+  float:right;
+  padding-right: 45px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+
+
+}
+  
+  
+}
+
+
